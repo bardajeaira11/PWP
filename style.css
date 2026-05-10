@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  background-image: url(../image/background.jpg);: ;
+  background-image: url(../image/background.jpg);;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -29,7 +29,7 @@ nav ul {
 }
 
 nav a {
-  color: white;
+  color: ghostwhite;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s;
@@ -63,7 +63,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: ghostwhite;
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 2rem;
@@ -76,7 +76,7 @@ h1 {
 }
 
 .gallery-item {
-  background: white;
+  background: ghostwhite;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 3px 8px rgba(0,0,0,0.1);
@@ -119,13 +119,13 @@ h1 {
   border-radius: 12px;
   text-align: right;
   padding-right: 8px;
-  color: white;
+  color: ghost;
   font-size: 0.85rem;
   line-height: 22px;
 }
 
 .content-block {
-  background: white;
+  background: ghostwhite;
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
